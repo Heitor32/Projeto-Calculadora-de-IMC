@@ -17,12 +17,12 @@ background-color: white;
 #container {
     display: flex;
     align-items: center;
-    gap: 3.5rem;
+    gap: 5rem;
 }
 
 #img img {
-    width: 30rem;
-    border: solid 2px black;
+    width: 50rem;
+ 
 }
 
 #calculator {
@@ -117,14 +117,23 @@ background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 2.25rem;
+    font-size: 3.25rem;
 }
 
 #imc span:last-child {
     font-size: 0.875rem;
     color: white;
+    padding-top: 10px;
 }
 
 #descricao {
     width: 15.5rem;
+}
+
+.normal {
+    color: green;
+}
+
+.atencao {
+    color: red;
 }
